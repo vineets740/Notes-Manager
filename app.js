@@ -23,6 +23,8 @@ if(command == 'add'){
     var allNotes = notes.getAll();
     console.log(`Printing ${allNotes.length} note(s)`);
     allNotes.forEach(note => notes.logNote(note));
+    
+//     Commemts are impotany
 }else if(command === 'read'){
     var note = notes.getNote(argv.title);
     if(note){
